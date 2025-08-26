@@ -2,27 +2,31 @@
 
 <div align="center">
   
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=ROBOT&size=25&color=39FF14&background=000000&center=true&vCenter=true&width=490&lines=Welcome+to+my+GitHub+profile...!;Full+Stack+Developer;Always+learning+new+things!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=ROBOT&size=25&color=39FF14&background=000000&center=true&vCenter=true&width=490&lines=Welcome+to+my+GitHub+profile...!;Software+Engineer;AI+%2B+Backend+Developer;Unreal+Engine+Specialist;Exploring+AI+%26+Beyond!)
+
+
+
 
 </div>
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+## 🧑‍💻 About Me  
 
-## <img src="https://c.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif" width="25">  <b>About Me</b>
+<p align="left">
+I’m <b>Izzat</b>, a backend-focused software engineer with a passion for building <b>AI-powered systems</b> and <b>game engine tools</b>.  
+I enjoy solving complex technical problems and turning them into practical, scalable solutions that create real impact.  
+</p>
 
-- 🔭 I'm currently working on **[Your Current Project/Company]**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" width="400" alt="Coding">
+</p>
 
-- 🌱 I'm currently learning **[Technology you're learning]**
+### 🔹 What I Do  
+- 💻 **Backend Engineering** → Designing scalable systems with **FastAPI, PostgreSQL, MinIO, Qdrant**, and modern AI frameworks.  
+- 🤖 **AI & LLMs** → Built adaptive learning platforms with **RAG pipelines, embeddings, and LLM-based quiz generation**.  
+- 🎮 **Game Engine Development** → Created **procedural geometry tools & plugins** in **Unreal Engine 5 (C++ & Blueprints)**.  
+- 🚀 **Core Strength** → Bridging **AI-driven backend systems** with **engine-side optimizations**.  
+- 📚 **Beyond Tech** → Avid reader, traveler, and sports enthusiast who values balance & continuous learning.  
 
-- 👯 I'm looking to collaborate on **open source projects**
-
-- 👨‍💻 All of my projects are available at **[GitHub](https://github.com/yourusername)**
-
-- 💬 Ask me about **[Your expertise areas]**
-
-- 📫 How to reach me: **[your.email@example.com]**
-
-- ⚡ Fun fact: **[Something interesting about you]**
 
 <br>
 
