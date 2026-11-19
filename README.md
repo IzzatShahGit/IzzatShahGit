@@ -1,126 +1,68 @@
-<h1 align="center">Hi there, I'm Syed Izzat Mumtaz <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-
 <div align="center">
-  
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3500&pause=1200&color=39FF14&background=000000&center=true&vCenter=true&width=800&height=60&lines=AI+%26+ML+Engineer;Multi-Agent+Systems%2C+RAG+%26+AI+Architecture;Scalable+Backend+%26+Cloud+Infrastructure;From+Ambiguous+Requirements+to+Production" alt="Typing SVG" width="800" />
 
+<img src="header.svg" alt="Syed Izzat Mumtaz. Problems in. Products out. Repeat." width="100%" />
 
-
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1200&color=5AA9FF&center=true&vCenter=true&width=700&height=55&lines=AI%2FML+Engineer;Multi-Agent+Systems+%26+RAG;Production+Backends+%26+Payments;Data+Pipelines;From+Model+to+UI" alt="AI/ML Engineer" width="700" />
 
 </div>
 
-## 🧑‍💻 About Me  
+## 🧑‍💻 About Me
 
-<p align="left">
-I’m <b>Izzat</b>, a backend-focused software engineer with a passion for building <b>AI-powered systems</b> and <b>game engine tools</b>.  
-I enjoy solving complex technical problems and turning them into practical, scalable solutions that create real impact.  
-These days most of my work sits where AI meets production: designing <b>multi-agent LLM systems</b> and <b>RAG pipelines</b>, and the <b>multi-tenant backends</b>, billing and <b>cloud infrastructure</b> they run on.  
-I care about latency, cost and reliability as much as model quality, a habit that comes from my background in <b>performance-critical C++</b>.  
-</p>
+I'm a software engineer with expertise in AI, backend and data engineering, and I'm most useful where those layers meet: where a model's answer turns into a price, a payment or a decision someone acts on. I've shipped a video generation platform with paying customers, a trade intelligence tool built on a million-plus rows of customs data, and document search that answers with its sources.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" width="400" alt="Coding">
-</p>
+I own products end to end. I work directly with clients to turn loose requirements into a clear scope, build each feature across the stack, ship it, and improve it based on how people actually use it.
 
-### 🔹 What I Do  
-- 🧠 **AI, ML & LLM** → Building **multi-agent systems** with **LangGraph & LangChain**, traced with **LangSmith**, along with **RAG pipelines, embedding models, LLM evaluation, LLM orchestration, prompt engineering** and **TTS/STT**. On the ML side, **reinforcement learning, computer vision and transformers**, working with **scikit-learn, PyTorch and XGBoost**.  
-- 💻 **Backend Engineering** → Designing scalable systems with **FastAPI, Django, PostgreSQL, MinIO, Qdrant**, and modern AI frameworks, built on solid system design principles: **multi-tenant architecture, RBAC, authentication, fault tolerance, job queues with RabbitMQ, caching and horizontal scaling**, plus **payment processing systems (Stripe, FastSpring)**.  
-- 💾 **Databases & Vector Stores** → **PostgreSQL, pgvector, MySQL, MongoDB, Redis, Qdrant, Chroma and FAISS**.  
-- ☁️ **Cloud & Infrastructure** → **AWS (EC2, ECS Fargate, S3), Docker, CI/CD, Linux, Cloudflare and MinIO**.  
-- 🤖 **AI & LLMs** → Built adaptive learning platforms with **RAG pipelines, embeddings, and LLM-based quiz generation**.  
-- 🎮 **Game Engine Development** → Created **procedural geometry tools & plugins** in **Unreal Engine 5 (C++ & Blueprints)**.  
-- 🚀 **Core Strength** → Bridging **AI-driven backend systems** with **engine-side optimizations**.  
+I care that AI output is correct, not just plausible. That means agents whose claims are checked in code, paid jobs that can't charge twice when a worker crashes, and data pipelines that give models measured facts instead of guesses.
 
+### 🔹 What I Do
 
-<br>
+- 🚀 **Product engineering:** I work with clients to turn a loose idea into a clear scope and plan, make the technical trade-offs with them, and keep improving the product from real usage after launch.
+- 🧠 **AI agents & LLM systems:** multi-agent systems that research, plan and act, with guardrails that check their claims in code before anyone sees them. I also build evaluation, model routing with fallback when a provider fails, careful prompt design, real-time voice (speech to text and text to speech) and generative video.
+- 📚 **RAG & retrieval:** search over a team's own documents that finds the right passage and answers with a citation. I handle the whole path from parsing and chunking to embeddings, hybrid search and reranking, and I measure faithfulness and retrieval quality so improvements are proven, not assumed.
+- 🤖 **Machine learning:** models for reinforcement learning, computer vision and language tasks, including face identity checks that keep characters consistent across generated video.
+- 💻 **Backend engineering:** production services that handle payments, many customers and background work safely: billing and subscriptions, permissions per workspace, durable job queues, caching and horizontal scaling, designed so retries and crashes never charge twice or lose work.
+- 🗂️ **Data engineering:** batch pipelines that turn large raw datasets into small, fast, analysis-ready tables, combined with live sources that are refreshed only as often as each one actually updates.
+- 🖥️ **Full-stack delivery:** product UIs whose types come straight from the backend's API, so the frontend and backend can't quietly drift apart.
+- ☁️ **Cloud & infrastructure:** containerised services on AWS with CI/CD, sized to stay fast and affordable, from free tiers to production traffic.
+- 🎮 **Game engine development:** procedural geometry tools and editor plugins for Unreal Engine 5.
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
+## 🔭 What I'm Building
 
-<p align="center">
+- **[Whitespace](https://github.com/IzzatShahGit/whitespace):** shows exporters where to sell and helps them close the deal. It turns a million-plus rows of global customs data, covering 5,384 products from 24 exporting countries, into ranked export markets. Retrieval-grounded AI agents, which cite a source for every claim, then take each market to a deal: requirements, buyers, landed cost, quote and shipping documents.<br/><sub>Next.js · FastAPI · LangGraph · Polars · DuckDB · PostgreSQL</sub>
+- **[Vorpix](https://vorpix.ai):** turns one prompt into a narrated, branded video, ready to edit and publish. Paid generative-video jobs survive worker crashes without paying a provider twice, and credits are billed across Stripe and FastSpring. Rebuilding the script agent in code cut its token use by 97%.<br/><sub>FastAPI · React · LangGraph · PostgreSQL · Redis · AWS ECS Fargate</sub>
+- **[Adaptive Learn AI](https://github.com/IzzatShahGit/Adaptive-Learn-AI):** turns a learner's own files into study material. It provides RAG search over uploaded PDFs, slides and documents on Qdrant, and generates LLM quizzes from them across OpenAI, Groq and DeepSeek.<br/><sub>FastAPI · Qdrant · PostgreSQL · Redis · MinIO</sub>
+- **[AskDocs](https://github.com/IzzatShahGit/Docu-Chat-RAG):** lets teams chat with their own documents. It does multi-user conversational RAG over PDF, DOCX and HTML, rewrites follow-up questions using the chat history, retrieves from ChromaDB, and answers with citations to its sources.<br/><sub>FastAPI · LangChain · ChromaDB · Streamlit</sub>
 
-- 💻 Languages & Frameworks:
-    
-    ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-    ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-    ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-    ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-    ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-    ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+## 🧭 How I Build
 
-- 🧠 AI, ML & LLM:
+- **Ship the whole slice.** Every feature goes out working end to end, from model to API to UI, scoped with the people who will use it.
+- **The model writes; code decides what is true.** Numbers and facts are computed or verified in code before anyone sees them.
+- **Anything that moves money is idempotent.** Retries and crashes never charge or pay twice.
+- **Measure, then claim.** Tokens, cost and latency are recorded for every run and compared head to head.
+- **One contract end to end.** Shared schemas and generated types, so a breaking change fails the build, not production.
 
-    ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-    ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-    ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-    ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-    ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-    ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-    ![RAGAS](https://img.shields.io/badge/RAGAS-FF4F00?style=for-the-badge&logoColor=white)
-    ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-    ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-00897B?style=for-the-badge&logoColor=white)
-    ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-    ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-    ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-    ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-    ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logoColor=white)
-    ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logo=elevenlabs&logoColor=white)
-    ![Cartesia](https://img.shields.io/badge/Cartesia-2B2B2B?style=for-the-badge&logoColor=white)
-    ![Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
-    ![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=for-the-badge&logoColor=black)
+## 🛠️ Skills
 
-- 💾 Databases & Vector Stores:
-
-    ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-    ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-    ![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-    ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-    ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-    ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
-    ![Chroma](https://img.shields.io/badge/Chroma-FF6B6B?style=for-the-badge&logo=chroma&logoColor=white)
-    ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-
-- ☁️ Cloud & Infrastructure:
-
-    ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-    ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
-    ![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
-    ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-    ![AWS Fargate](https://img.shields.io/badge/AWS%20Fargate-FF9900?style=for-the-badge&logo=awsfargate&logoColor=white)
-    ![Amazon ECS](https://img.shields.io/badge/Amazon%20ECS-FF9900?style=for-the-badge&logo=amazonecs&logoColor=white)
-    ![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
-    ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-
-- 💳 Backend & Payments:
-
-    ![RabbitMQ](https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-    ![Stripe](https://img.shields.io/badge/Stripe-5469d4?style=for-the-badge&logo=stripe&logoColor=white)
-    ![FastSpring](https://img.shields.io/badge/FastSpring-E04E39?style=for-the-badge&logoColor=white)
-    ![Authentication](https://img.shields.io/badge/Authentication-F78C40?style=for-the-badge&logo=openid&logoColor=white)
-    ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-    ![RBAC](https://img.shields.io/badge/RBAC-2E7D32?style=for-the-badge&logoColor=white)
-    ![Multi-Tenant](https://img.shields.io/badge/Multi--Tenant%20Architecture-37474F?style=for-the-badge&logoColor=white)
-    ![DRF](https://img.shields.io/badge/DJANGO%20REST%20Framework-ff1709?style=for-the-badge&logo=django&logoColor=white)
-    ![REST APIs](https://img.shields.io/badge/REST%20APIs-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
-    
-- 🛠️ Tools & Platforms:
-
-    ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-    ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-    ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)
-    ![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)
-    ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
-    ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-    ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-    ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-</p>
-
-<br>
+| Area | Tools |
+|---|---|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
+| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/Django_REST_Framework-A30000?style=flat-square&logo=django&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy_2-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![Alembic](https://img.shields.io/badge/Alembic-6BA539?style=flat-square&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white) ![SSE](https://img.shields.io/badge/Server--Sent_Events-37474F?style=flat-square) |
+| **Auth & architecture** | ![Authentication](https://img.shields.io/badge/Authentication-F78C40?style=flat-square&logo=openid&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) ![OAuth2](https://img.shields.io/badge/OAuth2_%2F_OIDC-F78C40?style=flat-square&logo=openid&logoColor=white) ![RBAC](https://img.shields.io/badge/RBAC-2E7D32?style=flat-square) ![Multi-Tenant](https://img.shields.io/badge/Multi--Tenant_Architecture-37474F?style=flat-square) ![Argon2](https://img.shields.io/badge/Argon2-455A64?style=flat-square) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white) ![three.js](https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) |
+| **LLMs & agents** | ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Anthropic](https://img.shields.io/badge/Anthropic_Claude-191919?style=flat-square&logo=anthropic&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Tavily](https://img.shields.io/badge/Tavily-1A73E8?style=flat-square) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) |
+| **RAG & retrieval** | ![RAG](https://img.shields.io/badge/RAG-0B7285?style=flat-square) ![Embedding Models](https://img.shields.io/badge/Embedding_Models-5F3DC4?style=flat-square) ![Semantic Search](https://img.shields.io/badge/Semantic_Search-1864AB?style=flat-square) ![Hybrid Search](https://img.shields.io/badge/Hybrid_Search-2B8A3E?style=flat-square) ![Reranking](https://img.shields.io/badge/Reranking-E67700?style=flat-square) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white) ![Chroma](https://img.shields.io/badge/Chroma-FF6B6B?style=flat-square) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white) ![RAGAS](https://img.shields.io/badge/RAGAS-FF4F00?style=flat-square) |
+| **Machine learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square) ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-00897B?style=flat-square) ![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white) |
+| **Voice & generative media** | ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white) ![Cartesia](https://img.shields.io/badge/Cartesia-2B2B2B?style=flat-square) ![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white) ![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logoColor=black) ![Runway](https://img.shields.io/badge/Runway-000000?style=flat-square) ![Veo](https://img.shields.io/badge/Google_Veo-4285F4?style=flat-square&logo=google&logoColor=white) ![Seedance](https://img.shields.io/badge/Seedance-325AB4?style=flat-square) ![Sync Labs](https://img.shields.io/badge/Sync_Labs-111111?style=flat-square) ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white) ![MoviePy](https://img.shields.io/badge/MoviePy-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **Data engineering** | ![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black) ![Parquet](https://img.shields.io/badge/Apache_Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white) ![Medallion](https://img.shields.io/badge/Medallion_Architecture-8D6E63?style=flat-square) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **Cloud & infrastructure** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white) ![Amazon ECS](https://img.shields.io/badge/Amazon_ECS-FF9900?style=flat-square&logo=amazonecs&logoColor=white) ![AWS Fargate](https://img.shields.io/badge/AWS_Fargate-FF9900?style=flat-square&logo=awsfargate&logoColor=white) ![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white) ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white) ![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) |
+| **Quality & observability** | ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black) ![mypy](https://img.shields.io/badge/mypy-2A6DB2?style=flat-square) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
+| **Payments & auth providers** | ![Stripe](https://img.shields.io/badge/Stripe_%2B_Connect-635BFF?style=flat-square&logo=stripe&logoColor=white) ![FastSpring](https://img.shields.io/badge/FastSpring-E04E39?style=flat-square) ![Google OAuth](https://img.shields.io/badge/Google_OAuth-4285F4?style=flat-square&logo=google&logoColor=white) |
+| **Game engines** | ![Unreal Engine](https://img.shields.io/badge/Unreal_Engine_5-313131?style=flat-square&logo=unrealengine&logoColor=white) ![Blueprints](https://img.shields.io/badge/Blueprints-0E1128?style=flat-square&logo=unrealengine&logoColor=white) |
 
 ## 🤝 Connect With Me
 
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/syed-izzat-040277267/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:syedizzatprof@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
-
-</div>
