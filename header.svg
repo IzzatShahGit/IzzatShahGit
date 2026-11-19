@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Syed Izzat Mumtaz. Problems in. Products out. Repeat.">
+<defs>
+<linearGradient id="ng" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="900" y2="0"><stop offset="0" stop-color="#A8D4FF"/><stop offset="0.42" stop-color="#A8D4FF"/><stop offset="0.5" stop-color="#FFFFFF"/><stop offset="0.58" stop-color="#A8D4FF"/><stop offset="1" stop-color="#A8D4FF"/><animateTransform attributeName="gradientTransform" type="translate" values="-700 0;700 0;700 0" keyTimes="0;0.6;1" dur="5s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="360"><stop offset="0" stop-color="#0B1F3A"/><stop offset="1" stop-color="#13355F"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#5AA9FF" fill-opacity="0.13"/></pattern>
+<linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="460" y1="0" x2="740" y2="0"><stop offset="0" stop-color="#5AA9FF"/><stop offset="1" stop-color="#4FE3B0"/></linearGradient>
+<linearGradient id="back" gradientUnits="userSpaceOnUse" x1="900" y1="0" x2="300" y2="0"><stop offset="0" stop-color="#4FE3B0"/><stop offset="1" stop-color="#5AA9FF"/></linearGradient>
+<marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#5AA9FF" stroke-width="2"/></marker>
+<style>
+.f{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif}
+.name{font-size:66px;font-weight:700;fill:url(#ng);letter-spacing:-1px;opacity:0;animation:fade .7s .1s ease-out forwards}
+.c1{opacity:0;animation:fade .5s .5s ease-out forwards}
+.t1{font-size:34px;font-weight:700;fill:#E6F1FF}
+.pill2{fill:#4FE3B0;fill-opacity:0;stroke:#4FE3B0;stroke-width:2;animation:fillin .6s 2.1s ease-out forwards}
+.t2{font-size:34px;font-weight:800;fill:#4FE3B0;animation:dark .6s 2.1s ease-out forwards}
+.rep{font-size:22px;font-style:italic;font-weight:500;fill:#C4D8EE}
+.spin{transform-origin:556px 300px;animation:spin 6s linear infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes fillin{to{fill-opacity:1}}
+@keyframes dark{to{fill:#063D2C}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.name,.c1{animation:none;opacity:1}.pill2{animation:none;fill-opacity:1}.t2{animation:none;fill:#063D2C}.spin{animation:none}.dot{display:none}}
+</style>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<text x="600" y="112" text-anchor="middle" class="f name">Syed Izzat Mumtaz</text>
+<g class="c1">
+<rect x="150" y="178" width="300" height="64" rx="32" fill="#1C3F6E" stroke="#6CB4FF" stroke-width="2"/>
+<text x="300" y="222" text-anchor="middle" class="f t1">Problems in.</text>
+</g>
+<path d="M460 210 L740 210" stroke="url(#flow)" stroke-width="2" stroke-dasharray="6 8" fill="none"/>
+<rect x="750" y="178" width="300" height="64" rx="32" class="pill2"/>
+<text x="900" y="222" text-anchor="middle" class="f t2">Products out.</text>
+<path d="M900 248 C900 292 875 302 840 302 L360 302 C325 302 300 292 300 256" stroke="url(#back)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="522" y="284" width="156" height="36" fill="url(#bg)"/>
+<g class="spin"><path d="M556 288 A12 12 0 1 1 544 300" fill="none" stroke="#C4D8EE" stroke-width="2.5"/><path d="M551 283 L557 288 L551 293" fill="none" stroke="#C4D8EE" stroke-width="2.5"/></g>
+<text x="578" y="308" class="f rep">Repeat.</text>
+<g class="dot">
+<circle visibility="hidden" r="6" fill="#5AA9FF"><set attributeName="visibility" to="visible" begin="0.6s"/><animate attributeName="fill" values="#5AA9FF;#4FE3B0" dur="1.6s" begin="0.6s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="0.6s" repeatCount="indefinite" path="M460 210 L740 210"/></circle>
+<circle visibility="hidden" r="6" fill="#5AA9FF"><set attributeName="visibility" to="visible" begin="1.13s"/><animate attributeName="fill" values="#5AA9FF;#4FE3B0" dur="1.6s" begin="1.13s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="1.13s" repeatCount="indefinite" path="M460 210 L740 210"/></circle>
+<circle visibility="hidden" r="6" fill="#5AA9FF"><set attributeName="visibility" to="visible" begin="1.66s"/><animate attributeName="fill" values="#5AA9FF;#4FE3B0" dur="1.6s" begin="1.66s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="1.66s" repeatCount="indefinite" path="M460 210 L740 210"/></circle>
+<circle visibility="hidden" r="5" fill="#4FE3B0"><set attributeName="visibility" to="visible" begin="2.2s"/><animate attributeName="fill" values="#4FE3B0;#5AA9FF" dur="3.2s" begin="2.2s" repeatCount="indefinite"/><animateMotion dur="3.2s" begin="2.2s" repeatCount="indefinite" path="M900 248 C900 292 875 302 840 302 L360 302 C325 302 300 292 300 256"/></circle>
+</g>
+</svg>
